@@ -1,11 +1,14 @@
 # resnet-cifar10
 ResNet-18 CIFAR-10 图像分类
+
 使用 PyTorch 从零复现 ResNet-18，在 CIFAR-10 数据集上完成图像分类任务。
+
 项目背景
 本项目是算法工程师-机器学习"的技能实践，重点训练：
 深度学习模型从零实现能力
 数据增强与训练优化技巧
 模型训练的可视化与工程化
+
 环境要求
 Python 3.8+
 PyTorch 1.12+
@@ -13,13 +16,16 @@ torchvision
 tensorboard
 tqdm
 matplotlib
+
 bash
 pip install torch torchvision tensorboard tqdm matplotlib
+
 快速开始
 bash
 git clone https://github.com/qianqianying27/resnet-cifar10.git
 cd resnet-cifar10
 python train.py
+
 项目结构
 plain
 resnet-cifar10/
